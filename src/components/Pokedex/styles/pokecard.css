@@ -1,0 +1,141 @@
+.pokeCard__container {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 1.5em;
+  border: 8px solid;
+  margin-bottom: 3em;
+  overflow: hidden;
+  transition: transform 150ms ease;
+}
+
+.pokeCard__container:hover {
+  transform: scale(1.05);
+}
+
+.pokeCard__header {
+  height: 200px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.pokeCard__image {
+  width: 70%;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pokeCard__name {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.pokeCard__type {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 0;
+  gap: 0.5em;
+}
+
+.pokeCard__hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 100;
+  width: 15em;
+}
+
+.pokeCard__info-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+}
+
+.pokeCard_info-item {
+  background-color: red;
+  display: contents;
+  text-align: center;
+}
+
+.pokeCard_info-name {
+  font-size: 15px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+}
+
+.pokeCard_info-number {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.bg-grass {
+  background-image: linear-gradient(
+    178.92deg,
+    #7ec6c5 0.92%,
+    #abdac6 47.96%,
+    #cae099 99.08%
+  );
+}
+
+.bg-fire {
+  background-image: linear-gradient(
+    176.37deg,
+    #f96d6f -32.26%,
+    #e35825 22.55%,
+    #e8ae1b 125.72%
+  );
+}
+
+.bg-water {
+  background-image: linear-gradient(
+    179.57deg,
+    #133258 -70.14%,
+    #1479fb 56.16%,
+    #82b2f1 214.85%
+  );
+}
+
+.bg-bug {
+  background-image: linear-gradient(
+    179.57deg,
+    #00d672 -70.14%,
+    #14fbc9 56.16%,
+    #ffffff 214.85%
+  );
+}
+
+.border-grass {
+  border-color: #abdac6;
+}
+
+.border-fire {
+  border-color: #e35825;
+}
+
+.border-water {
+  border-color: #1479fb;
+}
+
+.border-bug {
+  border-color: #00d672;
+}
+
+.color-grass {
+  color: #2b7254;
+}
+
+.color-fire {
+  color: #e35825;
+}
+
+.color-water {
+  color: #1479fb;
+}
