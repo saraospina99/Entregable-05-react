@@ -35,7 +35,7 @@ const PokeInfo = () => {
             <div className='pokeInfo__container'>
 
                 <div className='poke__pokedex-img'>
-                    <img className='poke__img' src="./public/images/Tittle.png" alt="" />
+                    <img className='poke__img' src="/public/images/pokedex.png" alt="title" />
                 </div>
 
                 <div className='poke__main'>
