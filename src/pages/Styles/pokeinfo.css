@@ -1,14 +1,12 @@
 .pokeInfo__container {
   background-color: rgb(202, 18, 18);
-  padding: 1em;
+  padding: 2.5em;
 
 }
 
 .poke__pokedex-img {
-  padding: 1.5em;
-  max-width: 700px;
-  object-fit: cover;
-  object-position: bottom;
+  width: 700px;
+  padding: 2em 1em 0;
 }
 
 .poke__main {

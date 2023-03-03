@@ -29,7 +29,7 @@ const PokeInfo = () => {
     if (hasError) {
         return <p className='pokeError__p'>The Pokemon
             <span className='pokeError__span'>  {id}</span> not found
-            <img className='pokeError__gif' src="./public/gifs/error-gif.gif" alt="gif" /></p>
+            <img className='pokeError__gif' src="https://i.pinimg.com/originals/f3/75/27/f3752723f7ff7df13825679ca4aae527.gif" alt="gif" /></p>
     } else {
         return (
             <div className='pokeInfo__container'>
