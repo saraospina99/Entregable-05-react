@@ -21,13 +21,9 @@ const Home = () => {
 
     return (
         <div className='home__container'>
-            <img className='home__img-pokedex' src="/images/Tittle.png" alt="tittle" />
+            <img className='home__img-pokedex' src="/images/pokedex.png" alt="tittle" />
             <h2 className='home__tittle'>Hi! Trainer</h2>
-            {/* <div className='home__circle'>
-                <span className='home__lines'>
-                    <div className='home__circle-2'></div>
-                </span>
-            </div> */}
+            
             <img className='home__img-trainers' src="/images/trainers.png" alt="trainers" />
             <p className='home__subtittle'>To star this pokedex, please write your name</p>
             <form className='home__form' onSubmit={handleSubmit} >
