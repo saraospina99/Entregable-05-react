@@ -25,7 +25,6 @@ const PokeInfo = () => {
             })
     }, [id])
 
-    console.log(poke);
     if (hasError) {
         return <p className='pokeError__p'>The Pokemon
             <span className='pokeError__span'>  {id}</span> not found
@@ -33,11 +32,9 @@ const PokeInfo = () => {
     } else {
         return (
             <div className='pokeInfo__container'>
-
                 <div className='poke__pokedex-img'>
                     <img className='poke__img' src="/images/pokedex.png" alt="title" />
                 </div>
-
                 <div className='poke__main'>
                     <div className='bloque__1'>
                         <div className='pokeInfo__card'>
